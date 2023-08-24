@@ -45,7 +45,7 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('⚚♻️ 𝘼𝘿𝘿 𝙈𝙀 𝙏𝙊 𝙔𝙊𝙐𝙍 𝙂𝙍𝙊𝙐𝙋 ♻️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('♻️ 𝘼𝘿𝘿 𝙈𝙀 𝙏𝙊 𝙔𝙊𝙐𝙍 𝙂𝙍𝙊𝙐𝙋 ♻️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton('🍃 ＭＡＩＮ ＨＵＢ 🗽', url='https://t.me/+Dc97yAncLqpiMmE1'),
             InlineKeyboardButton('🦞ＳＥＡＲＣＨ 👨‍🏫', url='https://t.me/+JQLREpLZfmA5MzI1')
