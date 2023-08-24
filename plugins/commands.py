@@ -24,8 +24,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('♻️ 𝘼𝘿𝘿 𝙈𝙀 𝙏𝙊 𝙔𝙊𝙐𝙍 𝙂𝙍𝙊𝙐𝙋 ♻️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('🍃 ＭＡＩＮ ＨＵＢ 🗽', url='https://t.me/SAM_DUB_LEZHa'),
-            InlineKeyboardButton('🦞ＳＥＡＲＣＨ 👨‍🏫', url='https://t.me/SAM_DUB_LEEZZA')
+            InlineKeyboardButton('🍃 ＭＡＩＮ ＨＵＢ 🗽', url='https://t.me/+Dc97yAncLqpiMmE1'),
+            InlineKeyboardButton('🦞ＳＥＡＲＣＨ 👨‍🏫', url='https://t.me/+JQLREpLZfmA5MzI1')
         ], [
             InlineKeyboardButton('💥 ＨＥＬＰ 💐', callback_data='help'),
             InlineKeyboardButton('🎋𝕊𝔼𝔼ℕ 𝔸𝔹𝕆𝕌𝕋❄', callback_data='about')
@@ -47,8 +47,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚♻️ 𝘼𝘿𝘿 𝙈𝙀 𝙏𝙊 𝙔𝙊𝙐𝙍 𝙂𝙍𝙊𝙐𝙋 ♻️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('🍃 ＭＡＩＮ ＨＵＢ 🗽', url='https://t.me/SAM_DUB_LEZHa'),
-            InlineKeyboardButton('🦞ＳＥＡＲＣＨ 👨‍🏫', url='https://t.me/SAM_DUB_LEEZZA')
+            InlineKeyboardButton('🍃 ＭＡＩＮ ＨＵＢ 🗽', url='https://t.me/+Dc97yAncLqpiMmE1'),
+            InlineKeyboardButton('🦞ＳＥＡＲＣＨ 👨‍🏫', url='https://t.me/+JQLREpLZfmA5MzI1')
         ], [
             InlineKeyboardButton('💥 ＨＥＬＰ 💐', callback_data='help'),
             InlineKeyboardButton('🎋𝕊𝔼𝔼ℕ 𝔸𝔹𝕆𝕌𝕋❄', callback_data='about')
@@ -95,8 +95,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('♻️ 𝘼𝘿𝘿 𝙈𝙀 𝙏𝙊 𝙔𝙊𝙐𝙍 𝙂𝙍𝙊𝙐𝙋 ♻️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('🍃 ＭＡＩＮ ＨＵＢ 🗽', url='https://t.me/SAM_DUB_LEZHa'),
-            InlineKeyboardButton('🦞ＳＥＡＲＣＨ 👨‍🏫', url='https://t.me/SAM_DUB_LEEZZA')
+            InlineKeyboardButton('🍃 ＭＡＩＮ ＨＵＢ 🗽', url='https://t.me/+Dc97yAncLqpiMmE1'),
+            InlineKeyboardButton('🦞ＳＥＡＲＣＨ 👨‍🏫', url='https://t.me/+JQLREpLZfmA5MzI1')
         ], [
             InlineKeyboardButton('💥 ＨＥＬＰ 💐', callback_data='help'),
             InlineKeyboardButton('🎋𝕊𝔼𝔼ℕ 𝔸𝔹𝕆𝕌𝕋❄', callback_data='about')
