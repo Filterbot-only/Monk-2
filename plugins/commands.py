@@ -30,7 +30,7 @@ async def start(client, message):
             InlineKeyboardButton('💥 ＨＥＬＰ 💐', callback_data='help'),
             InlineKeyboardButton('🎋𝕊𝔼𝔼ℕ 𝔸𝔹𝕆𝕌𝕋❄', callback_data='about')
         ], [
-            InlineKeyboardButton('🥴𝔾𝕆ℙ𝔸𝔸𝕃✍️', url='https://t.me/SMD_Owner')
+            InlineKeyboardButton('🌿𝗞𝗢𝗟𝗔𝗥𝗨 𝗗𝗘𝗩𝗘𝗟𝗣𝗘𝗥🍁', url='https://t.me/Owner_of_qtmve')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup)
@@ -53,7 +53,7 @@ async def start(client, message):
             InlineKeyboardButton('💥 ＨＥＬＰ 💐', callback_data='help'),
             InlineKeyboardButton('🎋𝕊𝔼𝔼ℕ 𝔸𝔹𝕆𝕌𝕋❄', callback_data='about')
         ], [
-            InlineKeyboardButton('🥴𝔾𝕆ℙ𝔸𝔸𝕃✍️', url='https://t.me/SMD_Owner')
+            InlineKeyboardButton('🌿𝗞𝗢𝗟𝗔𝗥𝗨 𝗗𝗘𝗩𝗘𝗟𝗣𝗘𝗥🍁', url='https://t.me/Owner_of_qtmve')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -101,7 +101,7 @@ async def start(client, message):
             InlineKeyboardButton('💥 ＨＥＬＰ 💐', callback_data='help'),
             InlineKeyboardButton('🎋𝕊𝔼𝔼ℕ 𝔸𝔹𝕆𝕌𝕋❄', callback_data='about')
         ], [
-            InlineKeyboardButton('🥴𝔾𝕆ℙ𝔸𝔸𝕃✍️', url='https://t.me/SMD_Owner')
+            InlineKeyboardButton('🌿𝗞𝗢𝗟𝗔𝗥𝗨 𝗗𝗘𝗩𝗘𝗟𝗣𝗘𝗥🍁', url='https://t.me/Owner_of_qtmve')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
