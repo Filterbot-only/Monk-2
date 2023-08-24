@@ -14,7 +14,7 @@ class script(object):
     HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://t.me/QTVS_BOT_X_CLOUD')
     START_TXT = environ.get("START_TXT", '''<b>ʜᴇʏ... {}
     
-ᴍʏ ɴᴀᴍᴇ ɪs <a href=http://t.me/Monk_Filter_Bot><b>𝕋𝕖𝕤𝕤𝕒 𝕏 𝔽𝕚𝕝𝕥𝕖𝕣</b></a>
+ᴍʏ ɴᴀᴍᴇ ɪs <a href=http://t.me/Monk_Filter_Bot><b>Monk Filter Bot</b></a>
 
 ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇs/sᴇʀɪᴇs ᴀɴᴅ ʟᴏᴛ ᴍᴏʀᴇ... ᴅᴏɴ'ᴛ ᴡᴀsᴛᴇ ʏᴏᴜʀ ᴛɪᴍᴇ ʙʏ ʟᴏᴏᴋɪɴɢ ᴛᴏ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ.. ᴀᴅᴅ & ᴇɴᴊᴏʏ ᴍᴇʜ ᴘᴏᴡᴇʀ
 
@@ -24,9 +24,9 @@ class script(object):
     ABOUT_TXT = """<b>
 ╭────[ ℚ𝕋𝕍𝕊𝕆𝔽𝔽𝕀ℂ𝕀𝔸𝕃 ]────⍟
 │
-├⍟ 𝕆𝕌ℝ 𝔹𝕆𝕋 ℕ𝔸𝕄𝔼 : <a href=http://t.me/Monk_Filter_Bot><b>𝗞𝗔𝗠𝗡𝗔𝗔𝗧𝗜</b></a>
-├⍟ 𝔸𝕌𝕋ℍ𝕆ℝ : <a href=https://t.me/SMD_Owner><b>𝔸.𝕂 🍁</b></a>
-├⍟ ℙ𝔸𝔼ℂ𝔼 : <a href=https://t.me/SMD_Owner><b>𝕋ℍ𝔸𝕃𝔸 𝔸𝕁𝕀𝕋ℍ🦞</b></a>
+├⍟ 𝕆𝕌ℝ 𝔹𝕆𝕋 ℕ𝔸𝕄𝔼 : <a href=http://t.me/Monk_Filter_Bot><b>Monk Filter Bot</b></a>
+├⍟ 𝔸𝕌𝕋ℍ𝕆ℝ : <a href=https://t.me/Mr_M_O_N_K><b>ＭＯＮＫ🍁</b></a>
+├⍟ ℙ𝔸𝔼ℂ𝔼 : <a href=https://t.me/Mr_M_O_N_K><b>ＰＲＯＣＹ🦞</b></a>
 ├⍟ ℙℝ𝕆𝕁𝔼ℂ𝕋 : <a href=https://t.me/SMD_Owner><b>𝕌𝕃𝕋𝕀𝕄𝔼𝕋 𝕊𝕋𝔸ℝ❤‍🔥</b></a>
 ├⍟ 𝕃𝔸ℕ𝔾𝕌𝔸𝔾𝔼 : <a href=https://t.me/Mr_M_O_N_K><b>ℕ𝔸𝕐𝔸ℕ𝔻𝔸ℝ𝔸☠️</b></a>
 ├⍟ 𝔽ℝ𝔸𝕄𝔼𝕎𝕆ℝ𝕂 : <a href=https://t.me/Mr_M_O_N_K><b>ℍ𝔸ℕ𝕌𝕊ℍ𝕀𝕂𝔸😈</b></a>
