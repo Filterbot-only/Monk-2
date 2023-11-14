@@ -12,28 +12,22 @@ def is_enabled(value, default):
 
 class script(object):
     HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://t.me/QTVS_BOT_X_CLOUD')
-    START_TXT = environ.get("START_TXT", '''<b>ʜᴇʏ... {}
+    START_TXT = environ.get("START_TXT", """𝐇𝐞𝐥𝐥𝐨... {}
     
-ᴍʏ ɴᴀᴍᴇ ɪs <a href=http://t.me/Monk_Filter_Bot><b>𝗠𝗢𝗡𝗞 𝗙𝗜𝗟𝗧𝗘𝗥</b></a>
+𝐌𝐲 𝐍𝐚𝐦𝐞 𝐈𝐬 <a href=https://t.me/Monk_Filter_Bot><b>☔ 𝐌𝐨𝐧𝐤 𝐅𝐢𝐥𝐭𝐞𝐫 𝐁𝐨𝐭♣</b></a>
 
-ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇs/sᴇʀɪᴇs ᴀɴᴅ ʟᴏᴛ ᴍᴏʀᴇ... ᴅᴏɴ'ᴛ ᴡᴀsᴛᴇ ʏᴏᴜʀ ᴛɪᴍᴇ ʙʏ ʟᴏᴏᴋɪɴɢ ᴛᴏ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ.. ᴀᴅᴅ & ᴇɴᴊᴏʏ ᴍᴇʜ ᴘᴏᴡᴇʀ
+𝐈 𝐂𝐚𝐧 𝐏𝐫𝐨𝐯𝐢𝐝𝐞 𝐌𝐨𝐯𝐢𝐞𝐬, 𝐉𝐮𝐬𝐭 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 𝐀𝐧𝐝 𝐌𝐚𝐤𝐞 𝐌𝐞 𝐀𝐝𝐦𝐢𝐧.. 𝐓𝐡𝐞𝐧 𝐒𝐞𝐞 𝐌𝐲 𝐏𝐨𝐰𝐞𝐫
 
-ᴍᴀᴅᴇ ᴡɪᴛʜ 🍁 ʙʏ <a href=https://t.me/SMD_Owner><b>🔥 𝗔𝗨𝗧𝗛𝗢𝗥 😈</b></a></b>''')
+𝐌𝐚𝐤𝐞𝐫 𝐌𝐞 <a href=https://t.me/Mr_M_O_N_K><b>♣𝐀𝐮𝐭𝐡𝐨𝐫🥀</b></a></b>""")
     HELP_TXT = """ʜᴇʏ {}
 ʜᴇʀᴇ ɪꜱ ᴍʏ ᴄᴏᴍᴍᴀɴᴅꜱ."""
-    ABOUT_TXT = """<b>
-╭────[ ℚ𝕋𝕍𝕊𝕆𝔽𝔽𝕀ℂ𝕀𝔸𝕃 ]────⍟
-│
-├⍟ 𝕆𝕌ℝ 𝔹𝕆𝕋 ℕ𝔸𝕄𝔼 : <a href=http://t.me/Monk_Filter_Bot><b>𝗞𝗔𝗠𝗡𝗔𝗔𝗧𝗜</b></a>
-├⍟ 𝔸𝕌𝕋ℍ𝕆ℝ : <a href=https://t.me/Mr_M_O_N_K><b>𝗠𝗢𝗡𝗞🍁</b></a>
-├⍟ ℙ𝔸𝔼ℂ𝔼 : <a href=https://t.me/Mr_M_O_N_K><b>🌿𝗣𝗥𝗢𝗖𝗬𝗢𝗡🦞</b></a>
-├⍟ ℙℝ𝕆𝕁𝔼ℂ𝕋 : <a href=https://t.me/SMD_Owner><b>🍁𝗝𝗜𝗥𝗔𝗬𝗔𝗔❤‍🔥</b></a>
-├⍟ 𝕃𝔸ℕ𝔾𝕌𝔸𝔾𝔼 : <a href=https://t.me/Mr_M_O_N_K><b>🎋𝗔𝗕𝗜𝗥𝗔𝗠𝗜☠️</b></a>
-├⍟ 𝔽ℝ𝔸𝕄𝔼𝕎𝕆ℝ𝕂 : <a href=https://t.me/Mr_M_O_N_K><b>🥴𝗡𝗔𝗧𝗨𝗧𝗢😈</b></a>
-├⍟ ℂℝ𝔼𝔸𝕋𝕆ℝ : <a href=https://t.me/Mr_M_O_N_K><b>🌿𝗛𝗜𝗡𝗔𝗧𝗔🥴</b></a>
-├⍟ 𝕊𝔼ℝ𝕍𝕀ℂ𝔼 ℍ𝕌𝔹  : <a href=https://t.me/Mr_M_O_N_K><b>❄𝗦𝗔𝗞𝗨𝗥𝗔🍁</b></a>
-│
-╰─────────────────────⍟<b>"""
+    ABOUT_TXT = """<b>🎧 𝐌𝐲 𝐍𝐚𝐦𝐞 𝐢𝐬 : <a href=https://t.me/Monk_Filter_Bot>☔ 𝐌𝐨𝐧𝐤 𝐅𝐢𝐥𝐭𝐞𝐫 𝐁𝐨𝐭♣</a>
+😈 𝐀𝐫𝐭𝐢𝐬𝐭 : <a href=https://t.me/Mr_M_O_N_K>🍁𝐎𝐰𝐧𝐞𝐫♠</a>
+👑 𝐃𝐞𝐯𝐨𝐥𝐨𝐩𝐞𝐫 : <a href=https://t.me/Mr_M_O_N_K>🌿𝐌𝐚𝐤𝐞𝐫⚜️</a>
+✍️ 𝐆𝐫𝐚𝐝𝐮𝐚𝐭𝐞 : <a href=https://t.me/Mr_M_O_N_K>🛬 𝐏𝐫𝐨𝐝𝐮𝐜𝐞𝐫🚦</a>
+♠ 𝐊𝐨𝐥𝐚𝐫𝐮 : <a href=https://t.me/Mr_M_O_N_K>🎭𝐃𝐨𝐥𝐢𝐭𝐚🔥</a>
+👨‍🔧 𝐇𝐞𝐥𝐩𝐞𝐫 : <a href=https://t.me/Mr_M_O_N_K>🦞𝐒𝐭𝐞𝐫𝐧𝐠𝐡🌿</a>
+⚜️ 𝐒𝐌𝐃 𝐁𝐎𝐓𝐳 : <a href=https://t.me/SMD_BotZ>🥀𝐂𝐫𝐞𝐚𝐭𝐨𝐫🎋</a></b>"""
     SOURCE_TXT = """<b>𝐂𝐫𝐞𝐚𝐭𝐞 𝐎𝐧𝐞 𝐋𝐢𝐤𝐞 𝐓𝐡𝐢𝐬 💗
 » ɪ ᴡɪʟʟ ᴄʀᴇᴀᴛᴇ ᴀ ʙᴏᴛ ꜰᴏʀ ʏᴏᴜ
 » ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ @SMD_Owner</b>"""
